@@ -330,7 +330,15 @@ def risk_band(prob, threshold):
 st.title("❤️ Heart Disease Screening App")
 st.info("Created by Powell Andile Ndlovu")
 st.caption("BRFSS-based screening model with threshold optimization and SHAP interpretation.")
-
+st.markdown("### About this tool")
+st.markdown(
+    "This application is a data-driven heart disease screening tool built using survey data from the Behavioral Risk Factor Surveillance System (BRFSS). "
+    "It leverages an XGBoost machine learning model optimized for imbalanced classification to identify individuals at potential risk of heart disease. "
+    "The model is calibrated using threshold optimization to prioritize recall, making it suitable for early-stage screening rather than clinical diagnosis. "
+    "SHAP (SHapley Additive exPlanations) is integrated to provide transparent, interpretable insights into how each feature influences predictions, "
+    "ensuring that results are both explainable and actionable. "
+    "This tool demonstrates the application of machine learning, data science, and decision analytics in a public health context."
+)
 st.info(
     "Model used: XGBoost Classifier. "
     "This gradient-boosted tree algorithm was selected because it handles non-linear patterns well, "
