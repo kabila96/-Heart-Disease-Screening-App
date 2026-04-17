@@ -334,6 +334,7 @@ st.info(
     "Model used: XGBoost Classifier. "
     "This gradient-boosted tree algorithm was selected because it handles non-linear patterns well, "
     "works strongly on structured tabular data, and supports SHAP-based explanations."
+    "Created by Powell Ndlovu"
 )
 
 with st.sidebar:
