@@ -328,6 +328,7 @@ def risk_band(prob, threshold):
 # APP
 # ============================================================
 st.title("❤️ Heart Disease Screening App")
+st.caption("Created by Powell Andile Ndlovu")
 st.caption("BRFSS-based screening model with threshold optimization and SHAP interpretation.")
 
 st.info(
